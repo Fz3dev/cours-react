@@ -13,6 +13,11 @@ function Navigation() {
           className={(nav) => (nav.isActive ? "nav-active" : "")}>
           <li>about</li>
         </NavLink>
+        <NavLink
+          to="/blog"
+          className={(nav) => (nav.isActive ? "nav-active" : "")}>
+          <li>blog</li>
+        </NavLink>
       </ul>
     </div>
   );
